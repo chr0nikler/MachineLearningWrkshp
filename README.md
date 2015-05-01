@@ -1,5 +1,5 @@
 
-The python notebook in this repo is for a talk I gave about Machine Learning on 30 April, 2015 at UCLA for ACM'S AI club. It was an introduction to Machine Learning with scikit-learn. 
+The python notebook in this repo is for a talk I gave about machine learning on 30 April, 2015 at UCLA for ACM'S AI club. It was an introduction to machine learning with scikit-learn. 
 
 In order to run the ipython notebook, just follow the steps below
 
