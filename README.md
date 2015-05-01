@@ -15,7 +15,7 @@ If you truly want to used the notebook the way I was going to give the presenati
 
     ipython nbconvert MachineLearningWrkshp.ipynb --to slides --post serve
 
-This uses nbconvert to turn the notebook into a presenation via Reveal.js, and server is then spun up to view the presentation. You may
+This uses nbconvert to turn the notebook into a presenation via Reveal.js, and a server is then spun up to view the presentation. You may
 have to deal with missing packages or versioning issues to get this to work, but when you do, you'll see how cool it is!
 
 And for the extremely lazy, the simple HTML file is also in the repo, which can itself be viewed for the tutorial.
