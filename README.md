@@ -3,7 +3,7 @@ The python notebook in this repo is for a talk I gave about machine learning on 
 
 In order to run the ipython notebook, just follow the steps below
 
-    git clone https://github.com:abcde13/MachineLearningWrkshp.git
+    git clone https://github.com/abcde13/MachineLearningWrkshp.git
     cd MachineLearningWrkshp.git
     ipython notebook
 
