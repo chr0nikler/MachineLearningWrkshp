@@ -1,5 +1,5 @@
 
-The python notebook in this repo is for a talk I gave about machine learning on 30 April, 2015 at UCLA for ACM'S AI club. It was an introduction to machine learning with scikit-learn. 
+The python notebooks in this repo are for the workshops I held on machine learning during Fall Quarter 2016 at  UCLA for ACM'S AI club. It is an introduction to machine learning with scikit-learn and python. Currently, workshop one is up, which was help on October 12, 2015. 
 
 In order to run the ipython notebook, just follow the steps below
 
@@ -28,7 +28,7 @@ This should give you all the necessary tools to start using the notebook.
 
 If you truly want to used the notebook the way I gave the presenation, try running this:
 
-    ipython nbconvert MachineLearningWrkshp.ipynb --to slides --post serve
+    ipython nbconvert --to slides --post serve MachineLearningWrkshp.ipynb
 
 This uses nbconvert to turn the notebook into a presenation via Reveal.js, and a server is then spun up to view the presentation. 
  
