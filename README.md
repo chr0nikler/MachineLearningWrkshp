@@ -10,14 +10,19 @@ In order to run the ipython notebook, just follow the steps below
 If ipython doesn't work, first see if you have python installed by doing `python --version`. If you see `command not found: python` then you need to install it.
 
 Follow this link to install it: http://ipython.org/install.html. However, if you have pip installed (check via the same process as above),
-I recommend doing `pip install ipython[notebook] ipython[qtconsole]` after running `pip intall ipython`.
+I recommend doing 
+    
+    pip install ipython[notebook] ipython[qtconsole]
+
+after running `pip intall ipython`.
 
 If you don't have anything installed, or you want to use Anaconda because you like the way it sounds, then follow the instructions in the link above
 to download it. Then, run 
-`
-conda update conda
-conda update ipython ipython-notebook ipython-qtconsole
-`
+
+    conda update conda
+
+    conda update ipython ipython-notebook ipython-qtconsole
+
 
 This should give you all the necessary tools to start using the notebook.
 
