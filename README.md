@@ -28,10 +28,12 @@ This should give you all the necessary tools to start using the notebook.
 
 If you truly want to used the notebook the way I gave the presenation, try running this:
 
-    ipython nbconvert --to slides --post serve MachineLearningWrkshp.ipynb
+    ipython nbconvert --to slides --post serve title-of-the-notebook.ipynb
+
+where <i>title-of-the-notebook</i> is one of the ipythone notebboks above, such as `Intro\ to\ Machine\ Learning` or `Unsupervised\ Learning`
 
 This uses nbconvert to turn the notebook into a presenation via Reveal.js, and a server is then spun up to view the presentation. 
  
 Once you've got the presentation up, you can code the examples used by running `ipython qtconsole`. The qtconsole is necessary because provides a GUI with which to plot things on.
 
-And for the extremely lazy, the simple HTML file is also in the repo, which can itself be viewed for the tutorial.
+Clicking on th .ipynb file also renders it fully, if you just want to view the entire presenation passively.
