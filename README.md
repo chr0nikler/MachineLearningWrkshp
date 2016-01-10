@@ -30,7 +30,7 @@ If you truly want to used the notebook the way I gave the presenation, try runni
 
     ipython nbconvert --to slides --post serve title-of-the-notebook.ipynb
 
-where <i>title-of-the-notebook</i> is one of the ipython notebboks above, such as `Intro\ to\ Machine\ Learning` or `Unsupervised\ Learning`
+where <i>title-of-the-notebook</i> is one of the ipython notebooks above, such as `Intro\ to\ Machine\ Learning` or `Unsupervised\ Learning`
 
 This uses nbconvert to turn the notebook into a presenation via Reveal.js, and a server is then spun up to view the presentation. 
  
